@@ -1,0 +1,44 @@
+.Header {
+    display: flex;
+    justify-content: center;
+    border: 14px ridge rgba(28,110,164,0.73);
+    border-radius: 10px;
+    border-color: rgb(247, 193, 193);
+    font-family: Georgia, serif;
+    letter-spacing: 7px;
+    word-spacing: 50px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(247, 193, 193);
+    text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+}
+
+.startInfo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.selects {
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(247, 193, 193);
+}
+
+.nextButton {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.instructions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px double rgb(247, 193, 193);
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+}
